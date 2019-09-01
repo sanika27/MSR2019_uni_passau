@@ -6,8 +6,8 @@ This repository contains the scripts to reproduce the results for studying the p
 Steps:
 1. User provided tags on posts should be fetched by quering the SOTorrent dataset  version: 2019_06_21
 2. linguist_tags.rb : Uses GitHub's Linguist classifier to detect the programming languages for the code snippets. This can be achieved by running: gem install github-linguist
-
-Using the two CSV files from previous steps the data processing will be done by the java file
 3. ComputeAlphas.java: To compute the alpha values
 4. ComputTagCooccurence.java: To compute the the tag co-occurence values for the user provided tags.
 5. ComputeLinguistCooccurence.java: To compute the tag co-occurence values for the linguist tags.
+
+Using the two CSV files from steps 1 and 2 will be used for the data processing by the java files.
